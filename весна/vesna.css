@@ -1,0 +1,100 @@
+table{
+    border: 20px groove rgb(188, 255, 192);
+    padding: 10px;
+    margin-left: 10%;
+    border-spacing: 30px;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+td{
+    border: 20px solid rgb(188, 255, 192);
+    padding: 10px;
+    border-radius: 70%;
+    text-align: center;
+}
+td{
+    border: 30px groove rgb(188, 255, 192);
+    padding: 40px;
+    font-style: oblique;
+}
+caption{
+    border: 30px groove rgb(188, 255, 192);
+    padding: 20px
+}
+#pics img{
+    width: 19vw;
+    height: 19vw;
+    object-fit: cover;
+    transition: all 1s;
+}
+#pics {
+    display: flex;
+    justify-content: right;
+    gap: 1%;
+    margin-top: 50px;
+}
+#pics img:hover{
+    transform: scale(1.2);
+}
+#film{
+    text-align: center;
+    padding: 20px;
+}
+#film video{
+    width: 20vw;
+    height: 28vw;
+    object-fit: cover;
+}
+#opros{
+    text-align: center;
+    padding: 35px;
+    background-color:  rgb(188, 255, 192);
+}
+#sf1{
+    position: absolute;
+    top: 50px;
+    left:30%;
+    width: 95px;
+    animation: fall 9s infinite;
+}
+#sf2{
+    position: absolute;
+    top: 50px;
+    left:40%;
+    width: 85px;
+    animation: fall 11s infinite;
+}
+#sf3{
+    position: absolute;
+    top: 50px;
+    left:70%;
+    width: 100px;
+    animation: fall 10s infinite;
+}
+#sf4{
+    position: absolute;
+    top: 55px;
+    left:10%;
+    width: 100px;
+    animation: fall 10s infinite;
+}
+#sf5{
+    position: absolute;
+    top: 45px;
+    left:60%;
+    width: 200px;
+    animation: fall infinite;
+}
+@keyframes fall{
+    from{
+    top: sopd;
+    opacity: 1;
+    transform: rotate(0);
+
+    }
+to{
+    top:1000px;
+    opacity: 0;
+    transform: rotate(720deg);
+}
+}
